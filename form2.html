@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form2</title>
+    </head>
+
+    <body>
+        <form id="form">
+        
+            <!--Create a form-->
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+
+                <!--Input type text-->
+                <input type="text" id="name" placeholder="Enter your Name" />             
+            </div>
+            
+            <div class="form-control">
+                <label for="email" id="label-email">Email</label>
+
+                <!--Input Type Email-->
+                <input type="email" id="email" placeholder="Enter your email" />
+            </div>
+            
+            <div class="form-control">
+                <label for="age" id="label-age">Age</label>
+
+                <!--Input Type text-->
+                <input type="text" id="age" placeholder="Enter your age" />
+            </div>
+
+            <div class="form-control">
+                <label for="role" id="label-role">Which Option best describes you?</label>
+
+            <!--Dropdown options-->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+
+            <div class="form-control">
+                <label>Would you recommend Coursera to a friend?</label>
+
+                <!--Input Type Radio Button-->
+                <label for="recommend-1">
+                    <input type="radio" id="recommend-1" name="recommend">Yes</input>
+                </label>
+                <label for="recommend-2">
+                    <input type="radio" id="recommend-2" name="recommend">No</input>
+                </label>
+                <label for="recommend-3">
+                    <input type="radio" id="recommend-3" name="recommend">Maybe</input>
+                </label>
+            </div>
+        </form>
+    </body>
+</html>
